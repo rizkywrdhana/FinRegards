@@ -12,6 +12,11 @@ Memperkenalkan FinRegards. Sebuah aplikasi mobile yang berfungsi untuk menyimpan
 2. Android Studio sebagai IDE
 3. Firebase Firestore sebagai Cloud Storage
 
+## Persyaratan Minimum Device
+1. Android 7.0 (Nougat)
+2. Kamera Smartphone
+3. Jaringan Internet
+
 ## Features
 <b>1. Authentication</b>
    
@@ -36,10 +41,3 @@ Memperkenalkan FinRegards. Sebuah aplikasi mobile yang berfungsi untuk menyimpan
 <b>6. Dark Mode</b>
    
    Fitur built-in terbaru dari Android Studio memungkinkan aplikasi FinRegards dalam mengimplementasikan mode gelap ke dalam aplikasi. Mode ini dapat diubah melalui setting masing-masing Smartphone.
-
-
-## Persyaratan Minimum Device
-1. Android 7.0 (Nougat)
-2. Kamera Smartphone
-3. Jaringan Internet
-
