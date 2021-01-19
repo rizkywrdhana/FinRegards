@@ -13,17 +13,28 @@ Memperkenalkan FinRegards. Sebuah aplikasi mobile yang berfungsi untuk menyimpan
 3. Firebase Firestore sebagai Cloud Storage
 
 ## Features
-1. Authentication
+<b>1. Authentication</b>
+   
    Fitur membuat akun yang berfungsi untuk memverifikasi identitas user saat akan masuk ke dalam FinRegards, fitur ini terdiri dari Sign In dan Sign Up.
-2. People
+
+<b>2. People</b>
+   
    Melihat user-user lain yang juga menggunakan Aplikasi FinRegards.
-3. Add Regard
+
+<b>3. Add Regard</b>
+   
    Membuat pesan berupa text, dan juga gambar kepada user lain di FinRegards.
-4. Give Access
+   
+<b>4. Give Access</b>
+   
    Memberi izin akses kepada user FinRegards yang sudah benar-benar dipercaya untuk berhak mengganti status pada akun anda.
-5. Auto Sent
+   
+<b>5. Auto Sent</b>
+   
    Jika status akun sudah berubah, pesan akan otomatis terkirim ke user yang dituju.
-6. Dark Mode
+   
+<b>6. Dark Mode</b>
+   
    Fitur built-in terbaru dari Android Studio memungkinkan aplikasi FinRegards dalam mengimplementasikan mode gelap ke dalam aplikasi. Mode ini dapat diubah melalui setting masing-masing Smartphone.
 
 
