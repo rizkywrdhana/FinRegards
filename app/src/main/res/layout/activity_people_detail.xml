@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.ProfileActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/r_photo"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:layout_margin="75dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <RelativeLayout
+            android:id="@+id/relative_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/fullname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="36dp"
+                android:text="Name"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/semicolon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="41dp"
+                android:layout_toRightOf="@id/fullname"
+                android:text=":"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/r_fullname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="40dp"
+                android:layout_toRightOf="@+id/semicolon"
+                android:text="Full name"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fullname"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:text="Username"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/semicolon1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fullname"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@id/username"
+                android:text=":"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/r_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fullname"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:layout_toRightOf="@+id/semicolon1"
+                android:text="\@Username"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/username"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:text="Status"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/semicolon2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/username"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@id/username"
+                android:text=":"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/r_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/username"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:layout_toRightOf="@+id/semicolon1"
+                android:text="Status"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/r_access"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/status"
+                android:visibility="gone"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:layout_toRightOf="@+id/semicolon1"
+                android:text="Access"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/r_idfrom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/r_access"
+                android:visibility="gone"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:layout_toRightOf="@+id/semicolon1"
+                android:text="Id"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/r_toMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/r_access"
+                android:visibility="gone"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:layout_toRightOf="@+id/semicolon1"
+                android:text="Message"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/r_toName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/r_access"
+                android:visibility="gone"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:layout_toRightOf="@+id/semicolon1"
+                android:text="Name"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/r_regid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/r_access"
+                android:visibility="gone"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:layout_toRightOf="@+id/semicolon1"
+                android:text="Reg Id"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/r_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/r_access"
+                android:visibility="gone"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:layout_toRightOf="@+id/semicolon1"
+                android:text="Reg Id"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/r_peopleid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/r_access"
+                android:visibility="gone"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:layout_toRightOf="@+id/semicolon1"
+                android:text="Reg Id"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/r_photoregard"
+                android:layout_marginVertical="18dp"
+                android:layout_marginHorizontal="16dp"
+                android:layout_below="@+id/r_regid"
+                android:visibility="gone"
+                android:layout_width="500dp"
+                android:layout_height="500dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/ic_launcher" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/access_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Give Access"
+            android:textColor="#ffffff"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/status_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Change Status"
+            android:textColor="#ffffff"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

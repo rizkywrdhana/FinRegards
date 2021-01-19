@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "432027836111",
+    "project_id": "finregards",
+    "storage_bucket": "finregards.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432027836111:android:150645f7722e254e8021ba",
+        "android_client_info": {
+          "package_name": "com.rizkywrdhana.finregards"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432027836111-iqda7rd3ckfj9iqif49e4lul9l48cnek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAanAlRY3N0bCQkNTKyxLp5QM_9XORdWY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432027836111-iqda7rd3ckfj9iqif49e4lul9l48cnek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rizkywrdhana.finregards">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/finregards_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/finregards_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FinRegards">
+        <activity android:name=".activity.InboxDetailActivity"
+            android:label="Inbox" />
+        <activity android:name=".activity.PeopleDetailActivity"
+            android:label="People" />
+        <activity android:name=".activity.EditRegardsActivity" />
+        <activity
+            android:name=".activity.AddRegardsActivity"
+            android:label="New Regards" />
+        <activity android:name=".activity.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.EditProfileActivity"
+            android:label="Edit Profile" />
+        <activity
+            android:name=".activity.ProfileActivity"
+            android:label="Profile" />
+        <activity android:name=".activity.InboxActivity"
+            android:label="Inbox"/>
+        <activity
+            android:name=".activity.PeopleActivity"
+            android:label="People" />
+        <activity
+            android:name=".activity.RegardsActivity"
+            android:label="My Regards" />
+        <activity android:name=".activity.HomeActivity" />
+        <activity
+            android:name=".activity.RegardsDetailActivity"
+            android:label="My Regards" />
+        <activity android:name=".activity.SignUpActivity" />
+        <activity android:name=".activity.SignInActivity" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.mrizkywrdhana.finregards.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

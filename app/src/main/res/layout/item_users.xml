@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        android:layout_marginVertical="18dp"
+        android:layout_marginHorizontal="18dp"
+        app:cardElevation="20dp"
+        android:clickable="false"
+        app:cardBackgroundColor="@color/purple_500"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:id="@+id/cardView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/r_img"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@mipmap/ic_launcher"
+                android:paddingTop="8dp"
+                android:paddingLeft="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/r_fullname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="full name"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:maxLines="1"
+                    android:textStyle="bold"
+                    android:paddingTop="14dp"
+                    android:paddingLeft="6dp" />
+
+                <TextView
+                    android:id="@+id/r_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\@username"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:paddingTop="6dp"
+                    android:paddingLeft="6dp"
+                    android:paddingBottom="18dp" />
+
+                <TextView
+                    android:id="@+id/r_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="status"
+                    android:visibility="gone"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:paddingTop="6dp"
+                    android:paddingLeft="6dp" />
+
+                <TextView
+                    android:id="@+id/r_access"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="access"
+                    android:visibility="gone"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:paddingTop="6dp"
+                    android:paddingLeft="6dp"
+                    android:paddingBottom="18dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
